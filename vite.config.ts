@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
-  base: './',
+  base: '/C4/',
   plugins: [
     react(),
     tailwindcss(),
@@ -18,8 +18,8 @@ export default defineConfig({
         theme_color: '#0D1117',
         background_color: '#0D1117',
         display: 'standalone',
-        scope: '/connect4/',
-        start_url: '/connect4/',
+        scope: '/C4/',
+        start_url: '/C4/',
         orientation: 'portrait-primary',
         icons: [
           { src: 'pwa-192.png', sizes: '192x192', type: 'image/png' },
