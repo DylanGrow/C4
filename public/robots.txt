@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://dylangrow.github.io/connect4/sitemap.xml
